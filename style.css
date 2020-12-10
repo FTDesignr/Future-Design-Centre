@@ -220,7 +220,7 @@ img {
 }
 
 /* 2.0 BUTTONS ANNIMATIE (Nynke)*/
-.hover-button{
+.button{
 	padding: 15px 30px;
 	border-radius: 10px;
 	margin: 10px;
@@ -230,7 +230,7 @@ img {
     text-decoration: none;
 }
 
-.hover-button:hover{
+.button:hover{
 	text-decoration: none;
 	color: #000;
 }
