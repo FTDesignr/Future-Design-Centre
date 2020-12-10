@@ -219,3 +219,18 @@ img {
   transition: 0.3s ease-out;
 }
 
+/* BUTTONS ANNIMATIE (Nynke)*/
+.hover-button{
+	padding: 15px 30px;
+	border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	color: #000;
+	background: #EBB000;
+    text-decoration: none;
+}
+
+.hover-button:hover{
+	text-decoration: none;
+	color: #000;
+}
