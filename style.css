@@ -227,11 +227,13 @@ img {
 	display: inline-block;
 	color: #000;
 	background: #EBB000;
+	text-align: center;
     text-decoration: none;
 }
 
 .button:hover{
 	text-decoration: none;
+	text-align: center;
 	color: #000;
 }
 
