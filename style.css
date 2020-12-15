@@ -255,3 +255,99 @@ img {
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
 }
+
+/* 3.0 PAGE CONTENT (Nynke)*/
+
+.container {
+  position: relative;;
+  width: 80%;
+}
+
+.simple-text {
+  padding: 30px;
+}
+
+.inside-text {
+  padding: 20px;
+}
+
+/* 4.0 PAGE IMAGES (Nynke)*/
+
+.round-edged-left {
+  border-radius: 50px 0px 0px 50px;
+  align-content: right;
+}
+
+.round-edged-right {
+  border-radius: 0px 50px 50px 0px;
+  align-content: left;
+}
+
+/* 4.1 DOUBLE COLUMN IMAGES (Nynke)*/
+
+* {
+  box-sizing: border-box;
+}
+
+.column-long {
+  background-color: #6DC2B5;
+  float: left;
+  width: 70%;
+  padding: 5px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.column-short {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* 4.2 IMAGE CONTAINER (Nynke)*/
+
+.img-hover-zoom {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+/* 4.3 ZOOM EFFECT (Nynke)*/
+.img-hover-zoom img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease-out;
+}
+
+.img-hover-zoom:hover img {
+  height: 125%;
+  width: 125%;
+}
+
+/* 4.2 IMAGE SLIDER (Nynke)*/
+.round-edged {
+  border-radius: 50px 50px 50px 50px;
+  align-content: left;
+}
+
+.arrow-column {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+
+.column {
+  float: left;
+  width: 26.66%;
+  padding: 5px;
+}
+
