@@ -272,9 +272,6 @@ img {
   padding: 20px;
 }
 
-.page-content {
-  padding-top: 20px;
-}
 
 /* 4.0 PAGE IMAGES (Nynke)*/
 
@@ -288,6 +285,11 @@ img {
   align-content: left;
 }
 
+.mock-up {
+  width: 40%;
+  height: auto;
+
+}
 /* 4.1 DOUBLE COLUMN IMAGES (Nynke)*/
 
 * {
@@ -317,6 +319,12 @@ img {
   display: table;
 }
 
+@media (max-width: 992px) {
+
+.column-short {
+  display: none;
+}
+
 /* 4.2 IMAGE CONTAINER (Nynke)*/
 
 .img-hover-zoom {
@@ -339,9 +347,14 @@ img {
 }
 
 /* 4.4 AUTOMATIC IMAGE SLIDER (Nynke)*/
+.project-img {
+  margin: 20px;
+}
+
 #slider-control img{
   padding-top: 60%;
   margin: 0 auto;
+  max-height: 40px;
 }
 @media screen and (max-width: 992px){
 #slider-control img {
