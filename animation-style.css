@@ -285,3 +285,68 @@
   transform: scale(0.8);
 }
 
+/* 7.0 FILTER DROPDOWN */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* 7.1 FILTER DROPDOWN BUTTON */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font: inherit; 
+  margin: 0; 
+}
+
+
+/* 7.2 HIDDEN FILTER CONTENT */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.show {display:block;}
+
+/* 7.3 FILTER ROWS */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 250px;
+}
+
+/* 7.4 STYLE HASHTAGS */
+.column a {
+  float: none;
+  color: #007499;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  color: #0F4D70;
+}
+
+/* 7.5 EXTRA FILTER STYLE */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
