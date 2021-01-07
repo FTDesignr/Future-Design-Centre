@@ -32,26 +32,26 @@ h6 {
   font-weight: 650; }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.8;
   font-weight: 400; }
 
 h1 {
   color: #000000;
-  font-size: 48px;
+  font-size: 72px;
 }  
 
 h2 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 h6 {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .footer-blauw p {
