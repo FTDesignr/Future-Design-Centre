@@ -67,6 +67,7 @@ img {
 
 /* Header */
 
+<<<<<<< HEAD
     .navbar {
       background: rgba(255, 255, 255, 0.8);
       box-shadow: 0 3px 11px rgba(0, 0, 0, 0.1);
@@ -193,6 +194,142 @@ img {
   margin-bottom: 20px;
 }
 
+=======
+   .navbar {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 3px 11px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  padding: 0.8rem 5rem 0.8rem;
+  margin: 0
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
+
+.nav-link img {
+  height: 60px;
+  vertical-align: top;
+  max-height: 100%;
+}
+
+.nav-item a {
+  margin-left: 13px;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0;
+  }
+}
+
+@media (max-width: 1150px) {
+  .search-box {
+    display: none;
+  }
+
+}
+
+.search-box {
+  margin-left: 13px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #008797;
+  height: 32px;
+  border-radius: 30px;
+  padding: 3px;
+  float: left;
+}
+
+.input-box {
+  border: none;
+  outline: none;
+  background: none;
+  float: left;
+  padding: 0px;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s all;
+  line-height: 30px;
+  width: 0;
+}
+>>>>>>> 8188a0169cad4c5b07f16fae92adf71ec4c3ca05
+
+*, ::after, ::before {
+  box-sizing: content-box;
+}
+
+.btn {
+  box-sizing: inherit;
+  color: white;
+  float: right;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0;
+}
+
+<<<<<<< HEAD
+.container-fluid-footer {
+  background-color: #0F4D70;
+=======
+.search-box:hover .input-box {
+  width: 150px;
+  padding-left: 9px;
+>>>>>>> 8188a0169cad4c5b07f16fae92adf71ec4c3ca05
+}
+
+.search-box:hover .btn {
+  background-color: white;
+  color: #008797;
+  border-radius: 50%;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+    
+/* Page content */
+
+.container {
+  margin-top: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.main-text {
+  top: 10px;
+}
+
+.main-extra-text {
+  top: 15px;
+  color: #0F4D70;
+}
+
+.show-portfolio {
+  top: 20px;
+  color: #ffffff;
+  border: none;
+  background-color: #EBB000;
+  border-radius: 15px;
+  min-height: 35px;
+  min-width: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+<<<<<<< HEAD
+=======
 
 
 /* footer CSS (Sven) */
@@ -205,6 +342,7 @@ img {
   color: #ffffff;
 }
 
+>>>>>>> 8188a0169cad4c5b07f16fae92adf71ec4c3ca05
 .col-xl-2 {
   padding-top: 1%;
 }
@@ -217,5 +355,136 @@ img {
 .col-xl-2 a:hover {
   color:#EBB000;
   transition: 0.3s ease-out;
+}
+
+/* 2.0 BUTTONS ANNIMATIE (Nynke)*/
+.button{
+	padding: 15px 30px;
+	border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	color: #000;
+	background: #EBB000;
+	text-align: center;
+    text-decoration: none;
+}
+
+.button:hover{
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+
+/* 2.1 SHRINKING BUTTON EFFECT (Nynke)*/
+
+.shrink-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.shrink-on-hover:hover, .shrink-on-hover:focus, .shrink-on-hover:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+/* 3.0 PAGE CONTENT (Nynke)*/
+
+.container {
+  position: relative;;
+  width: 80%;
+}
+
+.simple-text {
+  padding: 30px;
+}
+
+.inside-text {
+  padding: 20px;
+}
+
+/* 4.0 PAGE IMAGES (Nynke)*/
+
+.round-edged-left {
+  border-radius: 50px 0px 0px 50px;
+  align-content: right;
+}
+
+.round-edged-right {
+  border-radius: 0px 50px 50px 0px;
+  align-content: left;
+}
+
+/* 4.1 DOUBLE COLUMN IMAGES (Nynke)*/
+
+* {
+  box-sizing: border-box;
+}
+
+.column-long {
+  background-color: #6DC2B5;
+  float: left;
+  width: 70%;
+  padding: 5px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.column-short {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* 4.2 IMAGE CONTAINER (Nynke)*/
+
+.img-hover-zoom {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+/* 4.3 ZOOM EFFECT (Nynke)*/
+.img-hover-zoom img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease-out;
+}
+
+.img-hover-zoom:hover img {
+  height: 125%;
+  width: 125%;
+}
+
+/* 4.2 IMAGE SLIDER (Nynke)*/
+.round-edged {
+  border-radius: 50px 50px 50px 50px;
+  align-content: left;
+}
+
+.arrow-column {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+
+.column {
+  float: left;
+  width: 26.66%;
+  padding: 5px;
 }
 
