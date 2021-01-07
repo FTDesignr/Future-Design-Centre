@@ -1,4 +1,4 @@
-//AUTOMATIC PROJECT-SLIDER 
+//1.0 AUTOMATIC PROJECT-SLIDER 
 $(document).ready(function(){
 
 $('#itemslider').carousel({ interval: 3000 });
@@ -6,7 +6,7 @@ $('#itemslider').carousel({ interval: 3000 });
 $('.carousel-showmanymoveone .item').each(function(){
 var itemToClone = $(this);
 
-for (var i=1;i<6;i++) {
+for (var i=1;i<3;i++) {
 itemToClone = itemToClone.next();
 
 if (!itemToClone.length) {
@@ -20,7 +20,21 @@ itemToClone.children(':first-child').clone()
 });
 });
 
-// SLIDE IN
+//2.0 MOVE POSITION ON HOVER
+$(document).ready(function(){
+    $('.up-down').mouseover(function(){
+        $('.default').stop().animate({
+            width: 100    
+        }, 200);                        
+    }).mouseout(function(){
+        $('.default').stop().animate({
+            height: 200 
+        }, 200)    
+    })
+
+});
+
+//3.0 SLIDE IN
 $(document).ready(function() {
 
   var animation_elements = $.find('.animation-element');
@@ -53,3 +67,22 @@ $(document).ready(function() {
   $(window).trigger('scroll');
 
 });
+
+//4.0 ON CLICK FILTER DROPDOWN
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// 4.1 CLOSE DROPDOWN 
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
