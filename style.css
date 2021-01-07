@@ -222,6 +222,7 @@ img {
 }
 
 
+
 /* 3.0 PAGE CONTENT (Nynke)*/
 
 .container {
@@ -301,6 +302,10 @@ img {
 @media (max-width: 992px) {
 
 .column-short {
+  display: none;
+}
+
+.inside-arrow {
   display: none;
 }
 
