@@ -32,26 +32,30 @@ h6 {
   font-weight: 650; }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.8;
   font-weight: 400; }
 
 h1 {
   color: #000000;
-  font-size: 48px;
+  font-size: 72px;
 }  
 
 h2 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 h6 {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 25px;
+}
+
+.footer-blauw p {
+  color: #ffffff;
 }
 
 
@@ -64,6 +68,7 @@ img {
 /* Header */
 
    .navbar {
+  z-index: 99999;
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 3px 11px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
@@ -160,47 +165,36 @@ img {
 }
 
     
-/* Page content */
+/* Page content (Sven) */
 
-.container {
-  padding-top: 7%;
-  text-align: left;
-  color: #ffffff;
+.container-fluid-pagecontent1 {
+  position: absolute;
+  top: 120px;
 }
 
-.main-text {
-  top: 10px;
+.col-8 {
+  padding: 0;
+  float: right;
 }
 
-.main-extra-text {
-  top: 15px;
-  color: #0F4D70;
-}
-
-.show-portfolio {
-  top: 20px;
-  color: #ffffff;
-  border: none;
-  background-color: #EBB000;
-  border-radius: 15px;
-  min-height: 35px;
-  min-width: 150px;
+.col-8 .img-case {
+  position: relative;
+  overflow: hidden;
+  max-height: 444px;
+  float: right;
+  border-radius: 40px 0px 0px 40px;
   margin-bottom: 20px;
-  text-align: center;
 }
 
-
-@media (min-width: 1000px) {
-  .picture {
-    width: 500px;
-    padding-right: 0;
-  }
+.img-case {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
 }
 
-
-
-
-
+.img-case img {
+  bottom: 50px;
+}
 
 
 
@@ -215,8 +209,8 @@ img {
   color: #ffffff;
 }
 
-.footer-paragraph-1 {
-  color: #ffffff;
+.col-xl-2 {
+  padding-top: 1%;
 }
 
 .col-xl-2 a {
@@ -229,145 +223,7 @@ img {
   transition: 0.3s ease-out;
 }
 
-.col-xl-6 {
-  color:#0F4D70;
-}
 
-
-@media (min-width: 992px) {
-  
-  .container-fluid-footer {
-    min-height: fit-content;
-    padding: 5px;
-  }
-
-  .col-md-10 {
-    padding-top: 1%;
-    padding-left: 5%;
-  }
-
-  .col-md-2 {
-    height: 3rem; 
-    padding-top: 1.5%;
-    padding-right: 5%;
-    padding-bottom: 1%;
-    text-align: right;
-  }
-}
-
-
-
-@media (max-width: 1000px) {
-  
-  .col-md-10 {
-    padding-top: 1%;
-    padding-left: 5%;
-  }
-
-  .footer-text {
-    font-size: 16px;
-    color: #ffffff;
-  }
-  
-  .col-md-2 {
-    height: 3rem;
-    padding-top: 2%;
-    padding-left: 5%;
-  }
-
-}
-
-
-
-@media (max-width: 767px) {
-
-  .container-fluid-footer {
-    text-align: center;
-    padding: 5%;
-    padding-bottom: 7%;
-  }
-
-  .col-md-2 {
-    height: 3rem;
-    padding-top: 2%;
-  }
-}
-
-
-@media (min-width: 1200px) {
-  
-  .container-fluid-bottom {
-    padding: 5px;
-  }
-
-  .col-xl-6 {
-    text-align: right;
-    padding-top: 1%;
-    padding-right: 5%;
-  }
-  
-  .col-xl-2 {
-    padding-top: 1%;
-    padding-left: 5%;
-  }
-}
-
-@media (max-width: 1199px) {
-  
-  .container-fluid-bottom {
-    padding: 5px;
-  }
-
-  .col-xl-6 {
-    text-align: center;
-    padding-top: 1%;
-    padding-left: 5%;
-  }
-
-  .col-xl-2 {
-    text-align: center;
-    padding-top: 1%;
-    padding-left: 5%;
-  }
-}
-
-
-
-/* 2.0 BUTTONS ANNIMATIE (Nynke)*/
-.button{
-	padding: 15px 30px;
-	border-radius: 10px;
-	margin: 10px;
-	display: inline-block;
-	color: #000;
-	background: #EBB000;
-	text-align: center;
-    text-decoration: none;
-}
-
-.button:hover{
-	text-decoration: none;
-	text-align: center;
-	color: #000;
-}
-
-/* 2.1 SHRINKING BUTTON EFFECT (Nynke)*/
-
-.shrink-on-hover {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.shrink-on-hover:hover, .shrink-on-hover:focus, .shrink-on-hover:active {
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
-}
 
 /* 3.0 PAGE CONTENT (Nynke)*/
 
@@ -384,6 +240,13 @@ img {
   padding: 20px;
 }
 
+.inside-arrow {
+  width: 20%;
+  height: auto;
+  vertical-align: center;
+  float: left;
+}
+
 /* 4.0 PAGE IMAGES (Nynke)*/
 
 .round-edged-left {
@@ -396,14 +259,27 @@ img {
   align-content: left;
 }
 
+.mock-up {
+  width: 40%;
+  height: auto;
+
+}
 /* 4.1 DOUBLE COLUMN IMAGES (Nynke)*/
 
 * {
   box-sizing: border-box;
 }
 
-.column-long {
+.column-long-colored {
   background-color: #6DC2B5;
+  float: left;
+  width: 70%;
+  padding: 5px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.column-long {
   float: left;
   width: 70%;
   padding: 5px;
@@ -425,42 +301,12 @@ img {
   display: table;
 }
 
-/* 4.2 IMAGE CONTAINER (Nynke)*/
+@media (max-width: 992px) {
 
-.img-hover-zoom {
-  width: auto;
-  height: auto;
-  overflow: hidden;
+.column-short {
+  display: none;
 }
 
-/* 4.3 ZOOM EFFECT (Nynke)*/
-.img-hover-zoom img {
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  transition: .5s ease-out;
+.inside-arrow {
+  display: none;
 }
-
-.img-hover-zoom:hover img {
-  height: 125%;
-  width: 125%;
-}
-
-/* 4.2 IMAGE SLIDER (Nynke)*/
-.round-edged {
-  border-radius: 50px 50px 50px 50px;
-  align-content: left;
-}
-
-.arrow-column {
-  float: left;
-  width: 10%;
-  padding: 5px;
-}
-
-.column {
-  float: left;
-  width: 26.66%;
-  padding: 5px;
-}
-
