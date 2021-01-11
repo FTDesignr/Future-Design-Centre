@@ -1,5 +1,3 @@
-/* (8-12-'20 - 12:26  _  Inmiddels heb ik deze stylesheet aardig opgeruimd, ik heb de originele css van de header nog ff laten staan ivm de nieuwe header van Ramon */
-
 /* Importeren van Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:700,800");
 
@@ -177,19 +175,19 @@ img {
   float: right;
 }
 
-<<<<<<< HEAD
-.col-8 .img-case {
-  position: relative;
-  overflow: hidden;
-  max-height: 444px;
-  float: right;
-  border-radius: 40px 0px 0px 40px;
+
+.col-8 .img-case { 
+  position: relative; 
+  overflow: hidden; 
+  max-height: 444px; 
+  float: right; 
+  border-radius: 40px 0px 0px 40px; 
   margin-bottom: 20px;
-=======
+
 .main-extra-text {
   top: 15px;
   color: #08A677;
->>>>>>> 09db5011702bb6356309cca9febe48c1a63e001e
+
 }
 
 .img-case {
@@ -311,13 +309,10 @@ img {
 
 .column-short {
   display: none;
-<<<<<<< HEAD
-=======
 }
 
 .inside-arrow {
   display: none;
->>>>>>> 09db5011702bb6356309cca9febe48c1a63e001e
 }
 
 .inside-arrow {
