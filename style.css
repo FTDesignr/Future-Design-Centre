@@ -162,43 +162,6 @@ img {
   opacity: 1;
 }
 
-    
-/* Page content (Sven) */
-
-.container-fluid-pagecontent1 {
-  position: absolute;
-  top: 120px;
-}
-
-.col-8 {
-  padding: 0;
-  float: right;
-}
-
-
-.col-8 .img-case { 
-  position: relative; 
-  overflow: hidden; 
-  max-height: 444px; 
-  float: right; 
-  border-radius: 40px 0px 0px 40px; 
-  margin-bottom: 20px;
-
-.main-extra-text {
-  top: 15px;
-  color: #08A677;
-
-}
-
-.img-case {
-  position: relative;
-  max-height: 100%;
-  max-width: 100%;
-}
-
-.img-case img {
-  bottom: 50px;
-}
 
 
 
