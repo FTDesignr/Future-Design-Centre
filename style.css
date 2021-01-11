@@ -177,6 +177,7 @@ img {
   float: right;
 }
 
+<<<<<<< HEAD
 .col-8 .img-case {
   position: relative;
   overflow: hidden;
@@ -184,6 +185,11 @@ img {
   float: right;
   border-radius: 40px 0px 0px 40px;
   margin-bottom: 20px;
+=======
+.main-extra-text {
+  top: 15px;
+  color: #08A677;
+>>>>>>> 09db5011702bb6356309cca9febe48c1a63e001e
 }
 
 .img-case {
@@ -305,6 +311,13 @@ img {
 
 .column-short {
   display: none;
+<<<<<<< HEAD
+=======
+}
+
+.inside-arrow {
+  display: none;
+>>>>>>> 09db5011702bb6356309cca9febe48c1a63e001e
 }
 
 .inside-arrow {
