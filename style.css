@@ -54,10 +54,6 @@ h6 {
   font-size: 18px;
 }
 
-.footer-blauw p {
-  color: #ffffff;
-}
-
 
 img {
   height: auto;
@@ -67,134 +63,6 @@ img {
 
 /* Header */
 
-<<<<<<< HEAD
-    .navbar {
-      background: rgba(255, 255, 255, 0.8);
-      box-shadow: 0 3px 11px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(6px);
-      padding: 1rem 5rem 1rem;
-      margin: 0;
-    }
-        
-    .navbar-brand img {
-      max-height: 60px;
-    }
-    
-    .nav-link img {
-      height: 60px;
-      vertical-align: top;
-      max-height: 100%;
-    }
-    
-    .nav-item a {
-      margin: 5px 50px 0 0px;
-    }
-    
-    @media (min-width: 992px) {
-      .navbar {
-        left: 0px;
-        right: 0px;
-        top: 0;
-      }
-    }
-    
-    @media (max-width: 992px) {
-      .search-box {
-        display: none;
-      }
-    
-      .nav-item {
-        margin: 10px 0px 5px 20px;
-        }
-    }
-
-    .search-box {
-      position: relative;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #008797;
-      height: 32px;
-      border-radius: 30px;
-      padding: 3px;
-      float: left;
-    }
-    
-    .input-box {
-      border: none;
-      outline: none;
-      background: none;
-      float: left;
-      padding: 0px;
-      color: white;
-      font-size: 16px;
-      transition: 0.4s all;
-      line-height: 30px;
-      width: 0;
-    }
-    
-    *, ::after, ::before {
-      box-sizing: content-box;
-    }
-    
-    .btn {
-      box-sizing: inherit;
-      color: white;
-      float: right;
-      text-decoration: none;
-      width: 30px;
-      height: 30px;
-      line-height: 30px;
-      text-align: center;
-      border-radius: 50%;
-      padding: 0;
-    }
-    
-    .search-box:hover .input-box {
-      width: 150px;
-      padding-left: 9px;
-    }
-    
-    .search-box:hover .btn {
-      background-color: white;
-      color: #008797;
-      border-radius: 50%;
-    }
-    
-    ::placeholder {
-      color: white;
-      opacity: 1;
-    }
-    
-/* Page content */
-
-.container {
-  margin-top: 20px;
-  text-align: left;
-  color: #ffffff;
-}
-
-.main-text {
-  top: 10px;
-}
-
-.main-extra-text {
-  top: 15px;
-  color: #0F4D70;
-}
-
-.show-portfolio {
-  top: 20px;
-  color: #ffffff;
-  border: none;
-  background-color: #EBB000;
-  border-radius: 15px;
-  min-height: 35px;
-  min-width: 150px;
-  margin-bottom: 20px;
-}
-
-=======
    .navbar {
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 3px 11px rgba(0, 0, 0, 0.1);
@@ -240,7 +108,6 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #008797;
-  height: 32px;
   border-radius: 30px;
   padding: 3px;
   float: left;
@@ -258,7 +125,6 @@ img {
   line-height: 30px;
   width: 0;
 }
->>>>>>> 8188a0169cad4c5b07f16fae92adf71ec4c3ca05
 
 *, ::after, ::before {
   box-sizing: content-box;
@@ -277,14 +143,9 @@ img {
   padding: 0;
 }
 
-<<<<<<< HEAD
-.container-fluid-footer {
-  background-color: #0F4D70;
-=======
 .search-box:hover .input-box {
   width: 150px;
   padding-left: 9px;
->>>>>>> 8188a0169cad4c5b07f16fae92adf71ec4c3ca05
 }
 
 .search-box:hover .btn {
@@ -302,7 +163,7 @@ img {
 /* Page content */
 
 .container {
-  margin-top: 20px;
+  padding-top: 7%;
   text-align: left;
   color: #ffffff;
 }
@@ -328,8 +189,20 @@ img {
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
+
+@media (min-width: 1000px) {
+  .picture {
+    width: 500px;
+    padding-right: 0;
+  }
+}
+
+
+
+
+
+
+
 
 
 /* footer CSS (Sven) */
@@ -342,9 +215,8 @@ img {
   color: #ffffff;
 }
 
->>>>>>> 8188a0169cad4c5b07f16fae92adf71ec4c3ca05
-.col-xl-2 {
-  padding-top: 1%;
+.footer-paragraph-1 {
+  color: #ffffff;
 }
 
 .col-xl-2 a {
@@ -356,6 +228,110 @@ img {
   color:#EBB000;
   transition: 0.3s ease-out;
 }
+
+.col-xl-6 {
+  color:#0F4D70;
+}
+
+
+@media (min-width: 992px) {
+  
+  .container-fluid-footer {
+    min-height: fit-content;
+    padding: 5px;
+  }
+
+  .col-md-10 {
+    padding-top: 1%;
+    padding-left: 5%;
+  }
+
+  .col-md-2 {
+    height: 3rem; 
+    padding-top: 1.5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    text-align: right;
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+  
+  .col-md-10 {
+    padding-top: 1%;
+    padding-left: 5%;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .col-md-2 {
+    height: 3rem;
+    padding-top: 2%;
+    padding-left: 5%;
+  }
+
+}
+
+
+
+@media (max-width: 767px) {
+
+  .container-fluid-footer {
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 7%;
+  }
+
+  .col-md-2 {
+    height: 3rem;
+    padding-top: 2%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  
+  .container-fluid-bottom {
+    padding: 5px;
+  }
+
+  .col-xl-6 {
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 5%;
+  }
+  
+  .col-xl-2 {
+    padding-top: 1%;
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 1199px) {
+  
+  .container-fluid-bottom {
+    padding: 5px;
+  }
+
+  .col-xl-6 {
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 5%;
+  }
+
+  .col-xl-2 {
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 5%;
+  }
+}
+
+
 
 /* 2.0 BUTTONS ANNIMATIE (Nynke)*/
 .button{
