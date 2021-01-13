@@ -60,7 +60,6 @@ img {
   box-shadow: 0 3px 11px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
   padding: 0.8rem 5rem 0.8rem;
-  margin: 0
 }
 
 .navbar-brand img {
@@ -118,10 +117,6 @@ img {
   width: 0;
 }
 
-*, ::after, ::before {
-  box-sizing: content-box;
-}
-
 .btn {
   box-sizing: inherit;
   color: white;
@@ -154,14 +149,11 @@ img {
     
 /* Page content (Sven) */
 
-  
   .textbox {
-    margin-left: 90px;
-    width: 286px;
+    margin-left: 5%;
   }
   
   .textbox h1 {
-    margin-top: 50px;
     font-family: Sofia Pro;
     font-style: normal;
     font-weight: bold;
@@ -180,29 +172,34 @@ img {
   }
   
   .col-md-8 {
-    padding: 0;
+    padding-left: 5%;
+    padding-right: 0;
     float: right;
   }
   
   .col-md-8 .img-case { 
-    position: relative; 
     overflow: hidden; 
-    max-height: 444px; 
     float: right; 
     border-radius: 40px 0px 0px 40px; 
-    margin-bottom: 20px;
-  }
-  
-  .img-case {
-    position: relative;
-    max-height: 100%;
-    max-width: 100%;
-  }
-  
-  .img-case img {
-    bottom: 50px;
+    max-height: 60%;
   }
 
+  .ontmoeten {
+    box-sizing: inherit;
+    color: #EBB000;
+    text-decoration: none;
+  }
+
+  .ontmoeten p {
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+@media (min-width: 800px) {
+  .container-fluid {
+    margin-top: 10%;
+  }
+}
 
 
 
