@@ -153,15 +153,27 @@ img {
     margin-left: 5%;
   }
   
+  .textbox p .italicp {
+    font-style: italic;
+  }
+
   .textbox h1 {
     font-family: Sofia Pro;
-    font-style: normal;
+    font-style: italic;
     font-weight: bold;
     font-size: 72px;
     line-height: 101px;
-    color: #09B0AE;
+    color: #000000;
   }
   
+  .textbox h1 .colorh1 {
+    color: #398197;
+  }
+
+  .textbox h2 {
+    color: #398197;
+  }
+
   .textbox p {
     font-family: Sofia Pro;
     font-style: normal;
@@ -169,6 +181,7 @@ img {
     font-size: 18px;
     line-height: 24px;
     color: #000000;
+    padding-top: 2%;
   }
   
   .col-md-8 {
@@ -177,30 +190,32 @@ img {
     float: right;
   }
   
-  .col-md-8 .img-case { 
+.col-md-8 .img-case { 
     overflow: hidden; 
     float: right; 
     border-radius: 40px 0px 0px 40px; 
     max-height: 60%;
-  }
-
-  .ontmoeten {
-    box-sizing: inherit;
-    color: #EBB000;
-    text-decoration: none;
-  }
-
-  .ontmoeten p {
-    color: #ffffff;
-    font-size: 18px;
-  }
-
-@media (min-width: 800px) {
-  .container-fluid {
-    margin-top: 10%;
-  }
 }
 
+.ontmoeten {
+    background-color: #EBB000;
+    border-color: none;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    padding: auto;
+    width: 159px;
+    height: 42px;
+}
+
+.ontmoeten p {
+    color: #ffffff;
+    font-size: 18px;
+}
 
 
 /* Footer */
@@ -235,3 +250,51 @@ img {
   
   
  
+
+  
+@media (min-width: 800px) {
+  .container-fluid {
+    margin-top: 7%;
+  }
+
+  .container-fluid-footer {
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 0.55%;
+  }
+
+  .container-fluid-footer .col-sm-2 .imginsta {
+    margin-top: 5%;
+    margin-left: 70%;
+  }
+
+  .container-fluid-bottom {
+    margin-top: 0.5%;
+    margin-left: 2%;
+  }
+
+  .container-fluid-bottom .col-sm-6 .onderdeelvan {
+    margin-left: 39%;
+  }
+}
+
+@media (max-width: 799px) {
+  .textbox {
+    text-align: center;
+  }
+  
+  .ontmoeten {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+  }
+
+
+
+
+
+  .container-fluid-footer {
+    text-align: center;
+    padding: 5%;
+  }
+}
