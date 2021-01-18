@@ -198,18 +198,20 @@ img {
 }
 
 .ontmoeten {
-    background-color: #EBB000;
+    background-color: #FCCD04;
     border-color: none;
     text-decoration: none;
-    border-radius: 15px;
     border: 2px;
     text-align: center;
+    font-style: normal;
     margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: 40%;
+    margin-left: 4%;
     padding: auto;
     width: 159px;
     height: 42px;
+    box-shadow: 4px 4px 8px rgba(60, 60, 60, 0.2);
+    border-radius: 10px;
 }
 
 .ontmoeten p {
@@ -240,7 +242,7 @@ img {
   }
   
   .col-sm-2 a:hover {
-    color:#EBB000;
+    color:#FCCD04;
     transition: 0.3s ease-out;
   }
   
@@ -286,12 +288,8 @@ img {
   .ontmoeten {
     margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: 35%;
+    margin-left: 33%;
   }
-
-
-
-
 
   .container-fluid-footer {
     text-align: center;
