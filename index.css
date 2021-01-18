@@ -184,17 +184,18 @@ img {
     padding-top: 2%;
   }
   
-  .col-md-8 {
-    padding-left: 5%;
-    padding-right: 0;
+  .col-md-7 {
     float: right;
+    margin-right: 0;
+    padding-right: 0%;
   }
   
-.col-md-8 .img-case { 
+.col-md-7 .img-case { 
     overflow: hidden; 
-    float: right; 
-    border-radius: 40px 0px 0px 40px; 
-    max-height: 60%;
+    float: right;
+    max-width: 889px;
+    filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
+    border-radius: 40px 0px 0px 40px;
 }
 
 .ontmoeten {
@@ -218,6 +219,31 @@ img {
     color: #ffffff;
     font-size: 18px;
 }
+
+.container-fluid-2 {
+  margin-top: 3%;
+}
+
+.col-md-6 .img-case-left {
+  overflow: hidden; 
+  float: left;
+  min-width: 50%;
+  filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
+  border-radius: 0px 40px 40px 0px;
+  margin-right: 0;
+}
+
+.col-md-6 .img-case-right {
+  overflow: hidden; 
+  float: right;
+  min-width: 50%;
+  filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
+  border-radius: 40px 0px 0px 40px;
+  margin-right: 0;
+}
+
+
+
 
 
 /* Footer */
@@ -255,8 +281,20 @@ img {
 
   
 @media (min-width: 800px) {
+  .textbox {
+    margin-top: 7%;
+  }
+  
   .container-fluid {
     margin-top: 7%;
+  }
+
+  .container-fluid .ontmoetenbutton .ontmoeten {
+    margin-left: 30%;
+  }
+
+  .container-fluid .textbox {
+    margin-left: 30%;
   }
 
   .container-fluid-footer {
@@ -294,5 +332,11 @@ img {
   .container-fluid-footer {
     text-align: center;
     padding: 5%;
+  }
+
+  .container-fluid-bottom {
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 2%;
   }
 }
