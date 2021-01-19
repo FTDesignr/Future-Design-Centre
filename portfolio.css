@@ -193,6 +193,10 @@ p.filtertext {
   overflow: hidden;
 }
 
+.col-md-5 img{
+  width: 100%;
+}
+
 .col-md-5.under img {
 height: fit-content;
 }
