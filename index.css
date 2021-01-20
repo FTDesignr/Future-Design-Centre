@@ -51,6 +51,12 @@ img {
   max-width: 100%; }
 
 
+/* Einde basis CSS */  
+
+
+
+
+
 
 /* Header */
 
@@ -98,7 +104,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #008797;
+  background-color: #398197;
   border-radius: 30px;
   padding: 3px;
   float: left;
@@ -137,7 +143,7 @@ img {
 
 .search-box:hover .btn {
   background-color: white;
-  color: #008797;
+  color: #398197;
   border-radius: 50%;
 }
 
@@ -146,8 +152,13 @@ img {
   opacity: 1;
 }
 
+/* Einde header */
+
+
+
+
     
-/* Page content (Sven) */
+/* Pagina content */
 
   .textbox {
     margin-left: 5%;
@@ -184,13 +195,13 @@ img {
     padding-top: 2%;
   }
   
-  .col-md-7 {
+  .container-fluid .col-md-7 {
     float: right;
     margin-right: 0;
     padding-right: 0%;
   }
   
-.col-md-7 .img-case { 
+.container-fluid .col-md-7 .img-case { 
     overflow: hidden; 
     float: right;
     max-width: 889px;
@@ -220,27 +231,156 @@ img {
     font-size: 18px;
 }
 
-.container-fluid-2 {
-  margin-top: 3%;
-}
-
 .col-md-6 .img-case-left {
   overflow: hidden; 
   float: left;
-  min-width: 50%;
+  width: 100%;
   filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
   border-radius: 0px 40px 40px 0px;
   margin-right: 0;
+  margin-left: 0;
+  z-index: -1;
 }
 
 .col-md-6 .img-case-right {
   overflow: hidden; 
   float: right;
-  min-width: 50%;
+  width: 100%;
   filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
   border-radius: 40px 0px 0px 40px;
   margin-right: 0;
+  margin-left: 0;
+  z-index: 0;
 }
+
+.ontdekken {
+  background-color: #FCCD04;
+  border-color: none;
+  text-decoration: none;
+  border: 2px;
+  font-style: normal;
+  margin-bottom: 3%;
+  width: 1100px;
+  height: 81px;
+  box-shadow: 4px 4px 8px rgba(60, 60, 60, 0.2);
+  border-radius: 40px;
+}
+
+.ontdekken p {
+  color: #ffffff;
+  float: left;
+  padding-top: 1.5%;
+}
+
+.pijl {
+  padding-top: 0.75%;
+}
+
+
+/* Rij 3 */
+
+.textbox-2 {
+  margin: 5%;
+}
+
+.textbox-2 h2 .italich2 {
+  font-style: italic;
+}
+
+.textbox-2 p .italicp {
+  font-style: italic;
+}
+
+.textbox-2 h2 {
+  color: #5CACA8;
+}
+
+.textbox-2 p {
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  padding-top: 3%;
+}
+
+
+.textbox-3 h2 {
+  color: #5CACA8;
+  margin-bottom: 5%;
+}
+
+.textbox-3 p {
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  padding-top: 1%;
+}
+
+.container-fluid-3 .col-md-7 {
+  float: left;
+
+}
+
+.container-fluid-3 .col-md-5 {
+  float: right;
+  margin-right: 0;
+  padding-right: 0%;
+}
+
+/* Rij 4 */
+
+.container-fluid-4 .col-md-6 {
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.container-fluid-4 .col-md-6 .blue {
+  background: #5CACA8;
+  border-radius: 0px 40px 40px 0px;
+  height: 262px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  box-shadow: 4px 4px 8px rgba(60, 60, 60, 0.2);
+}
+
+.container-fluid-4 .col-md-6 .img-case-2 {
+  float: right;
+  filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
+  border-radius: 40px 0px 0px 40px;
+}
+
+.textbox-4 {
+  color: #ffffff;
+}
+
+.studentenbutton {
+  align-items: center;
+}
+
+.student {
+  width: 260px;
+  height: 42px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 8px rgba(60, 60, 60, 0.2);
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+}
+
+.student p {
+  color: #398197;
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+/* Einde pagina content */
+
 
 
 
@@ -249,7 +389,7 @@ img {
 /* Footer */
 
 .container-fluid-footer {
-    background-color: #0F4D70;
+    background-color: #398197;
   }
   
   .footer-text {
@@ -263,7 +403,7 @@ img {
   }
   
   .col-sm-2 a {
-    color: #0F4D70;
+    color: #398197;
     text-decoration: none;
   }
   
@@ -273,11 +413,12 @@ img {
   }
   
   .col-sm-6 {
-    color:#0F4D70;
+    color:#398197;
   }
   
   
  
+/* @media spullen */ 
 
   
 @media (min-width: 800px) {
@@ -285,6 +426,10 @@ img {
     margin-top: 7%;
   }
   
+  .container-fluid-2 {
+    margin-top: 3%;
+  }
+
   .container-fluid {
     margin-top: 7%;
   }
@@ -295,6 +440,84 @@ img {
 
   .container-fluid .textbox {
     margin-left: 30%;
+  }
+
+  .col-md-6 .img-case-left {
+    height: 625px;
+  }
+
+  .col-md-6 .img-case-right {
+    height: 525px;
+  }
+
+  .onderschrift {
+    position: relative;
+    height: 165px;
+    top: 460px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px 0px 40px 0px;
+    z-index: 1;
+    color: #398197;
+  }
+  
+  .onderschrifttext {
+    padding: 15px 0 0 53%;
+    position: absolute;
+  }
+  
+  .onderschrifttext h2 {
+    font-weight: 700;
+  }
+  
+  .onderschrifttext h4 {
+    font-weight: 400;
+  }
+
+  .onderschrift2 {
+    position: relative;
+    height: 165px;
+    top: 360px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px 0px 0px 40px;
+    z-index: 1;
+    color: #398197;
+  }
+  
+  .onderschrifttext2 {
+    padding: 15px 0 0 10%;
+    position: absolute;
+  }
+  
+  .onderschrifttext2 h2 {
+    font-weight: 700;
+  }
+  
+  .onderschrifttext2 h4 {
+    font-weight: 400;
+  }
+
+  .ontdekken {
+    width: 1100px;
+    margin-top: 2%;
+  }
+
+  .ontdekken p {
+    font-size: 24px;
+    padding-left: 5%;
+  }
+
+  .container-fluid-3 {
+    margin: 2.5%;
+  }
+
+  .container-fluid-3 .col-md-5 {
+    margin-top: 1.5%;
   }
 
   .container-fluid-footer {
@@ -318,16 +541,138 @@ img {
   }
 }
 
+
+
+
 @media (max-width: 799px) {
   .textbox {
     text-align: center;
   }
   
+  .textbox-2 {
+    margin-right: 5%;
+  }
+
+  .textbox-3 {
+    margin-right: 5%;
+  }
+
+  .container-fluid-2 {
+    margin-top: 5%;
+  }
+
   .ontmoeten {
     margin-top: 2%;
     margin-bottom: 5%;
     margin-left: 33%;
   }
+
+  .col-md-6 .img-case-left {
+    width: 100%;
+    filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
+    border-radius: 0px 40px 40px 0px;
+    margin-right: 0;
+    margin-bottom: 5%;
+    z-index: -1;
+  }
+
+  .col-md-6 .img-case-right {
+    width: 100%;
+    max-height: 282.58px;
+    filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
+    border-radius: 40px 00px 0px 40px;
+    margin-left: 0;
+    margin-bottom: 5%;
+    margin-right: 0;
+    z-index: -1;
+  }
+
+  .container-fluid-4 .col-md-6 .blue {
+    height: 300px;
+    padding-right: 15%;
+  }
+
+  .ontdekken {
+    max-width: 500px;
+  }
+
+  .ontdekken p {
+    font-size: 18px;
+    padding-left: 4%;
+    padding-top: 3.2%;
+  }
+
+  .pijl {
+    padding-right: 5%;
+  }
+
+
+  .onderschrift {
+    position: relative;
+    height: 120px;
+    top: 163px;
+    left: 0;
+    bottom: 0;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px 0px 40px 0px;
+    z-index: 1;
+    color: #398197;
+  }
+  
+  .onderschrifttext {
+    padding: 2px 0 0 25px;
+    position: absolute;
+  }
+  
+  .onderschrifttext h2 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .onderschrifttext h4 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .onderschrift2 {
+    position: relative;
+    height: 120px;
+    top: 163px;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px 0px 0px 40px;
+    z-index: 1;
+    color: #398197;
+  }
+  
+  .onderschrifttext2 {
+    padding: 2px 0 0 55px;
+    position: absolute;
+    text-align: right;
+  }
+  
+  .onderschrifttext2 h2 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .onderschrifttext2 h4 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .container-fluid-2 .col-md-7 {
+    margin: 3%;
+  }
+  
+  .container-fluid-2 .col-md-5 {
+    margin: 3%;
+  }
+
+
 
   .container-fluid-footer {
     text-align: center;
