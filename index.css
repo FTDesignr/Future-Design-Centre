@@ -379,6 +379,82 @@ img {
   margin-top: 1%;
 }
 
+/* Rij 5 */
+
+.container-fluid-5 {
+  margin-bottom: 3%;
+  margin-top: 0;
+}
+
+.container-fluid-5 .col-md-10 .blue2 {
+  background: #398197;
+  border-radius: 40px 0px 0px 40px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-shadow: 4px 4px 8px rgba(60, 60, 60, 0.2);
+}
+
+.container-fluid-5 .col-md-2 .pijl2 {
+  float: left;
+  filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
+}
+
+.textbox-5 {
+  color: #ffffff;
+}
+
+.benieuwdbutton {
+  align-items: center;
+}
+
+.benieuwd {
+  width: 272px;
+  height: 42px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 8px rgba(60, 60, 60, 0.2);
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+}
+
+.benieuwd p {
+  color: #398197;
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+
+/* Rij 6 */
+
+.bedrijvenvooru h2 {
+  color: #398197;
+}
+
+
+.img-case-3 {
+  max-width: 88px;
+  min-width: 55px;
+  box-shadow: 4px 4px 8px rgba(60, 60, 60, 0.2);
+}
+
+.img-case-4 {
+  max-width: 200px;
+  min-width: 162px;
+}
+
+.container-fluid-6 .col-md-6 h3 {
+  font-weight: lighter;
+  color: #398197;
+}
+
+.container-fluid-6 {
+  margin-bottom: 1%;
+}
+
+
+
 /* Einde pagina content */
 
 
@@ -520,6 +596,41 @@ img {
     margin-top: 1.5%;
   }
 
+  .container-fluid-5 .col-md-2 .pijl2 {
+    margin-top: 15%;
+  }
+
+  .container-fluid-5 .col-md-10 .blue2 {
+    height: 292px;
+  }
+  
+  .bedrijvenvooru h2 {
+    margin-left: 5%;
+    margin-bottom: 1.5%;
+  }
+
+  .container-fluid-6 .col-md-6 .Grenzeloos {
+    margin-top: 1.75%;
+  }
+
+  .img-case-3 {
+    float: left;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 3%;
+  }
+  
+  .textbox-7 {
+    margin-right: 5%;
+  }
+
+  .img-case-4 {
+    float: left;
+    position: relative;
+    margin-right: 3%;
+    margin-top: 1.5%;
+  }
+
   .container-fluid-footer {
     padding-left: 2%;
     padding-top: 1%;
@@ -547,14 +658,17 @@ img {
 @media (max-width: 799px) {
   .textbox {
     text-align: center;
+    margin-right: 3%;
   }
   
   .textbox-2 {
     margin-right: 5%;
+    text-align: center;
   }
 
   .textbox-3 {
-    margin-right: 5%;
+    margin-right: 10%;
+    text-align: center;
   }
 
   .container-fluid-2 {
@@ -664,15 +778,44 @@ img {
     font-size: 18px;
   }
 
-  .container-fluid-2 .col-md-7 {
+  .container-fluid-3 .col-md-5 {
     margin: 3%;
+  }
+
+  .container-fluid-5 .col-md-2 .pijl2 {
+    margin-top: 2%;
+  }
+
+  .container-fluid-5 .col-md-10 .blue2 {
+    height: fit-content;
+    padding-left: 7%;
+    padding-bottom: 8%;
+    margin-bottom: 2%;
+  }
+
+  .bedrijvenvooru {
+    text-align: center;
+  }
+
+  .img-case-3 {
+    margin-left: 38%;
+    margin-top: 5%;
+  }
+
+  .img-case-4 {
+    margin-left: 24%;
+    margin-top: 5%;
+  }
+
+  .textbox-6 {
+    margin-top: 2%;
+    text-align: center;
   }
   
-  .container-fluid-2 .col-md-5 {
-    margin: 3%;
+  .textbox-7 {
+    margin-top: 2%;
+    text-align: center;
   }
-
-
 
   .container-fluid-footer {
     text-align: center;
