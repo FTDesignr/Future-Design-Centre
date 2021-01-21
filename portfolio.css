@@ -319,6 +319,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 margin-top: 7.5%;
+margin-left: 0;
 }
 
 
@@ -394,6 +395,8 @@ margin-top: 7.5%;
   .container-fluid {
     margin-top: 0;
   }
+  .button{
+    margin-top: 0;
 }
 
 @media (max-width: 1150px) {
@@ -411,7 +414,7 @@ margin-top: 7.5%;
 
 /* /footer/ */
 .container-fluid-footer {
-    background-color: #0F4D70;
+   background: #398197;
     padding-left: 100px;
   }
 
