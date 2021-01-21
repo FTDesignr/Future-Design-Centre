@@ -215,9 +215,9 @@ height: fit-content;
   filter: drop-shadow(4px 4px 8px rgba(60, 60, 60, 0.2));
 }
 
-/* .col-md img {
-  width: 100%;
-} */
+ .col-md img {
+  width: 900px;
+} 
 
 .bottom.col-md {
   height: 548px;
