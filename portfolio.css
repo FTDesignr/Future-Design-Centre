@@ -526,28 +526,19 @@ margin-left: 0;
   .container-fluid-bottom {
     margin-top: 0.5%;
   }
-
   .container-fluid-bottom .col-sm-6 .onderdeelvan {
     margin-left: 39%;
   }
 }
 
-
-
 @media (max-width: 799px) {
-
   .container-fluid-footer {
     text-align: center;
     padding: 5%;
   }
-
   .container-fluid-bottom {
     text-align: center;
     margin-left: 2%;
     margin-top: 2%;
   }
-}
-
-
-
 }
