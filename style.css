@@ -322,7 +322,7 @@ img {
 }
 
 .inside-arrow {
-  width: 20%;
+  max-width: 120px;
   height: auto;
   vertical-align: center;
   float: left;
