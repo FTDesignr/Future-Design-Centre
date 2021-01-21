@@ -247,9 +247,9 @@ height: fit-content;
 }
 
 
-/* .col-md-5 img{
-  width: 100%;
-} */
+.col-md-5 img{
+  width: 700px;
+}
 
 .project {
   position: absolute;
